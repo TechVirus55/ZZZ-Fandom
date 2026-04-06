@@ -1,0 +1,36 @@
+@media (max-width:768px) {
+    h1 .fandom {
+        text-align: center; 
+    }
+
+    nav {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    nav a{
+        margin: 5px;
+    }
+
+    .homepage img { 
+        width: 100%;
+    }
+
+    .container-content {
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+
+    .wrapper-faksi {
+        grid-template-columns: 1fr;
+    }
+
+    .wrapper-video iframe{
+        height: 200px;
+    }
+
+    /* preview */
+    .wrapper-preview img {
+        grid-template-columns: 1fr;
+    }
+}
